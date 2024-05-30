@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
   void init() async {
     result = await GetIt.I.get<SqlHelper>().createTables();
     showLoading = false;
+    result = true;
     setState(() {});
   }
 
