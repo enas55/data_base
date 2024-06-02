@@ -25,7 +25,7 @@ class SqlHelper {
     stock integer,
     isAvailable boolean,
     image blob,
-    categoryId integer,
+    categoryId integer
   )""");
       
       batch.execute("""
